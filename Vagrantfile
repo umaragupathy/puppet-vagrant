@@ -15,9 +15,9 @@ Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise64"
   config.vm.box_version = "1.1.0"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-#  config.proxy.http = "http://proxy.amp.network:8080"
-  #config.proxy.https = "http://proxy.amp.network:8080"
-  #config.proxy.no_proxy = "localhost,127.0.0.1"
+  config.proxy.http = "http://proxy.amp.network:8080"
+  config.proxy.https = "http://proxy.amp.network:8080"
+  config.proxy.no_proxy = "localhost,127.0.0.1"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

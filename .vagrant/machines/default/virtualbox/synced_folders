@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/UMA-AMP/vagrant","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/UMA-AMP/vagrant/puppet-vagrant","disabled":false,"__vagrantfile":true}}}
